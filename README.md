@@ -22,4 +22,4 @@ We used code from https://www.florin-pop.com/blog/2019/09/random-meal-generator,
 
 ## The Team
 
-I created this project for the Hack(H)er413 hackathon with Shriya Gundamaraju and Claudia Zhu. We are all undergraduate computer science majors at the University of Massachusetts Amherst.
+I created this project for the Hack(H)er413 hackathon with Eileen Pan and Claudia Zhu. We are all undergraduate computer science majors at the University of Massachusetts Amherst.
