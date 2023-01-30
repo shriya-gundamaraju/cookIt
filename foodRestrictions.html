@@ -1,0 +1,60 @@
+<form action="action_page.php">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <div class="container">
+    <div id="meal" class="row meal">
+      <h1
+        style="
+          position: center;
+          bottom: 320px;
+          font-size: 50px;
+          font-family: Cambria;
+        "
+      >
+        Dietary Restrictions
+      </h1>
+      <p>
+        Hi there! Before you go look for an awesome recipe to cook, we need to
+        know more about you! Please fill out this form to let us know how to
+        cater to your dietary needs and restrictions.
+      </p>
+      <hr />
+
+      <label for="dietTypes">Diet Type:</label>
+      <select name="diets" id="diets">
+        <option value="noRest">No Restrictions</option>
+        <option value="vegt">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="chick">Chicken</option>
+        <option value="pork">Pork</option>
+        <option value="beef">Beef</option>
+        <option value="sea">Seafood</option>
+      </select>
+
+      <div class="row text-center"></div>
+      <button
+        type="button"
+        style="position: center; bottom: 17px; left: 1000px"
+        class="button-primary"
+        id="get_meal"
+      >
+        Get Meal 🍔
+      </button>
+
+      <a
+        style="position: absolute; bottom: 530px; right: 1100px"
+        href="index.html"
+        ><button type="button" class="cancelbtn">Home</button></a
+      >
+
+      <script type="text/javascript">
+        function getOption() {
+          selectElement = document.querySelector("#diets");
+          output = selectElement.value;
+          document.querySelector(".output").textContent = output;
+        }
+      </script>
+
+      <script src="script.js"></script>
+    </div>
+  </div>
+</form>
